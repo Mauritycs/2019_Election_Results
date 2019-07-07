@@ -1,12 +1,18 @@
 from flask import Flask, jsonify, render_template, url_for, request, redirect
 from flask import Flask
+
+
 app = Flask(__name__)
 
 
-# create route that renders index.html template
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return "Hello!!!"
+
+# # create route that renders index.html template
+# @app.route("/")
+# def home():
+#     return render_template("index.html")
 
 # # route to the arabic page 
 # @app.route("/arabic")
