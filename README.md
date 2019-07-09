@@ -1,1 +1,3 @@
-# 2019_Election_Results
+# 2019 Election Results Analysis
+
+![Candidates](Images/candidates.jpg)
